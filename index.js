@@ -1,5 +1,5 @@
 const port=8081
-const server=require('./view/server')
+const server=require('./views/server')
 const express=require('express')
 const app=express()
 
