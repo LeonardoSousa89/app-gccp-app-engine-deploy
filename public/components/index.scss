@@ -1,4 +1,5 @@
-/* Color Theme Swatches in Hex */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 $primary:  #1B8EF2;
 $secondary:#1BA0F2;
 $thirdy:   #38BDF2;
@@ -37,5 +38,12 @@ $landscape: landscape;
 %radius{
     border-radius:6px;
 }
-
+*{
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+body{
+    background:linear-gradient(47deg, $primary 45%, $secondary 55%);
+    @include size(100vh,100vw);
+}
 
